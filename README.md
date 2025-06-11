@@ -14,7 +14,7 @@ A concurrent connection-oriented TCP banking server written in C, using `fork()`
 - Custom application layer protocol 
 - Signal handling for zombie process reaping
 
-## 🛠️ Build Instructions
+## Build Instructions
 
 ### Prerequisites
 

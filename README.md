@@ -22,7 +22,14 @@ A concurrent connection-oriented TCP banking server written in C, using `fork()`
 - Linux environment
 - Basic socket programming knowledge helps 
 
-### 1. Compile the server
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/P-AlaKara/banking-server/
+cd banking-server
+```
+
+### 2. Compile the server
 #### Note: Ensure you have banking.c and bank.h in the same folder as the server. Change the IP address in client.c (line 10) to your own server's IP.
 
 ```bash

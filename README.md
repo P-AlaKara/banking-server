@@ -1,6 +1,6 @@
 # banking-server
 
-A concurrent connection-oriented TCP banking server written in C, using `fork()` to handle multiple clients simultaneously. Each client is assigned a separate process to handle communication with the client. The main/listening server only accepts connection requests. Supports basic banking commands (open, close, deposit, withdraw, etc.) over a custom protocol. Accounts are persisted to disk between sessions.
+A concurrent connection-oriented TCP banking server written in C, using `fork()` to handle multiple clients simultaneously. Each client is assigned a separate process to handle communication with the client. The parent/master/listening server only accepts connection requests. Supports basic banking commands (open, close, deposit, withdraw, etc.) over a custom protocol. Accounts are persisted to disk between sessions.
 
 ## Features
 
